@@ -24,19 +24,19 @@ python main.py <имя_файла> <действие> "<Наименование
 Добавить продукт:
 
 ```bash
-python main.py products.txt add "Товар1" цена
+python main.py products.txt add "Товар" цена
 ```
 
 Изменить цену продукта:
 
 ```bash
-python main.py products.txt edit "Товар1" цена
+python main.py products.txt edit "Товар" цена
 ```
 
 Удалить продукт:
 
 ```bash
-python main.py products.txt delete "Товар1" 
+python main.py products.txt delete "Товар" 
 ```
 
 Посчитать сумму всех продуктов:
